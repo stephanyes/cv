@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Contact Details</title>
+  </head>
+  <body>
+    <img src="https://assets1.ignimgs.com/2018/03/15/drake-1280-1521095180831_400w.jpg" alt="Yeah">
+    <h1>Contact Details</h1>
+    <ul>
+      <li>Phone: 4543-3976</li>
+      <li>Email: stephanoiucciolino@hotmail.com</li>
+      <li>Instagram: <a href="https://www.instagram.com/tefo.i/">tefo.i</a></li>
+      <li>Facebook: <a href="https://www.facebook.com/stephano.iucciolino">Stephano Iucciolino</a></li>
+    </ul>
+    <hr>
+    <!--en donde dice ACTION,hay que configurar eso ya que cuando le damos al submit del form nos lleva al INDEX como lo
+    especifica ahi.Donde dice POST lo que eso significa es lo que se va a mandar del FORMULARIO a esa direccion de email en action
+    Donde dice ENCTYPE signfica el formato del formulario, en este caso le pusimos TEXT/PLAIN para que no hayan simbolos raros-->
+    <form action="mailto:stephanoiucciolino@hotmail.com" method="post" enctype="text/plain">
+      <label for="GET-name">Your Name:</label>
+      <input type="text" name="yourName" value=""><br>
+      <label for="">Your Email:</label>
+      <input type="email" name="yourEMail" value=""><br>
+      <label>Your Message:</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="">
+    </form>
+
+  </body>
+</html>
